@@ -1,0 +1,4 @@
+tags.lock
+.DS_Store
+fonts/
+nvim/plugged/
