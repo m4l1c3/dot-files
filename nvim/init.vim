@@ -19,12 +19,12 @@ Plug 'leafgarland/typescript-vim'
 Plug 'tpope/vim-markdown'
 Plug 'mxw/vim-jsx'
 Plug 'digitaltoad/vim-pug'
+Plug 'vim-scripts/Conque-GDB'
 Plug 'MvanDiemen/brighton.vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'moll/vim-node'
-Plug 'godlygeek/wsapprox'
-Plug 'ruchee/vim-red'
 Plug 'shawncplus/skittles_berry'
+" Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 " Plug 'Valloric/YouCompleteMe'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'ajh17/VimCompletesMe'
@@ -46,7 +46,6 @@ Plug 'Townk/vim-autoclose'
 " Automatically sort python imports
 Plug 'fisadev/vim-isort'
 
-Plug 'kirecek/vim-kxxe256'
 Plug 'sts10/vim-pink-moon'
 Plug 'nightsense/snow'
 Plug 'Siphalor/vim-atomified'
@@ -86,10 +85,8 @@ Plug 'acoustichero/goldenrod.vim'
 Plug 'kitten/vim-adventurous'
 Plug 'andbar-ru/vim-unicon'
 Plug 'srcery-colors/srcery-vim'
-Plug 'bitpushr/cyberpunk.vim'
 Plug 'bounceme/highwayman'
 Plug 'tomsik68/vim-crystallite'
-Plug 'RussellBradley/vim-kings-away'
 Plug 'notpratheek/vim-luna'
 Plug 'aperezdc/vim-elrond'
 Plug 'atelierbram/vim-colors_duotones'
@@ -111,6 +108,7 @@ Plug 'sjl/badwolf'
 
 call plug#end()
 let mapleader = "\<space>"
+let g:ConqueGdb_Leader = '<Leader>'
 " set cursorline
 set wildmenu
 set showmatch
