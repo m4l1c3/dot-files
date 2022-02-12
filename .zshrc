@@ -1,9 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+DOCKER_BUILDKIT=1
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -120,21 +122,11 @@ alias gc="git commit -S -m $*"
 if [ -r ~/.zshrc ]; then echo 'export GPG_TTY=$(tty)' >> ~/.zshrc; \
   else echo 'export GPG_TTY=$(tty)' >> ~/.profile; fi
 
-export TERM=screen-256color
+export TERM=xterm-256color
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 eval "$(starship init zsh)"
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
+PROMPT_EOL_MARK=''
+_JAVA_AWT_WM_NONREPARENTING=1
+
